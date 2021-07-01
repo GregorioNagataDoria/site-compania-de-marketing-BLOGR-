@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="default.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <script src="default.js"></script>
+
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+
+
+</head>
+<body>
+
+
+
+  
+ <div id="page-top">
+
+  
+
+  <img src="images/bg-pattern-intro.svg" id="intro-img">
+
+
+<header id="top-info">
+
+    <img src="images/logo.svg" >
+
+
+<div id="info-creator-holder">
+
+<span class="info-creator" onclick="openinfo('product')"> 
+  Product
+  <img src="images/icon-arrow-light.svg" >
+</span>
+
+<div class="hidden-info" id="product"> 
+  <span class="hover-link">Overview</span>
+  <br>
+  <span class="hover-link">Pricing</span>
+  <br>
+  <span class="hover-link">Marketplace</span>
+  <br>
+  <span class="hover-link">Features</span> 
+  <br>
+  <span class="hover-link">Integrations</span> 
+
+</div>
+
+<span class="info-creator" onclick="openinfo('company')"> 
+  Company
+  <img src="images/icon-arrow-light.svg" >
+</span>
+
+    
+<div class="hidden-info" id="company">  
+  <span class="hover-link"> About</span>
+  <br>
+  <span class="hover-link">Team</span>
+  <br>
+  <span class="hover-link">Blog</span>
+  <br>
+  <span class="hover-link">Careers</span>
+</div>  
+
+  
+<span class="info-creator" onclick="openinfo('connect')">
+   Connect
+   <img src="images/icon-arrow-light.svg" alt="">
+  </span>
+
+<div class="hidden-info" id="connect">  
+  <span class="hover-link">Contact</span>
+  <br>
+  <span class="hover-link">Newsletter</span>
+  <br>
+  <span class="hover-link">LinkedIn</span>
+
+</div>  
+
+</div>
+
+<div id="mobile-info-creator-holder">
+
+
+  <div id="mobile-info-flex">
+
+  <span class="mobile-info-creator" onclick="openmobileinfo('product2')"> 
+    Product
+    <img src="images/icon-arrow-dark.svg" >
+  </span>
+  
+  <div class="mobile-hidden-info" id="product2"> 
+
+    <span class="hover-link">Overview</span>
+    <br>
+    <span class="hover-link">Pricing</span>
+    <br>
+    <span class="hover-link">Marketplace</span>
+    <br>
+    <span class="hover-link">Features</span> 
+    <br>
+    <span class="hover-link">Integrations</span> 
+  
+  </div>
+  
+  <span class="mobile-info-creator" onclick="openmobileinfo('company2')"> 
+    Company
+    <img src="images/icon-arrow-dark.svg" >
+  </span>
+  
+      
+  <div class="mobile-hidden-info" id="company2">  
+    <span class="hover-link"> About</span>
+    <br>
+    <span class="hover-link">Team</span>
+    <br>
+    <span class="hover-link">Blog</span>
+    <br>
+    <span class="hover-link">Careers</span>
+  </div>  
+  
+    
+  <span class="mobile-info-creator" onclick="openmobileinfo('connect2')">
+     Connect
+     <img src="images/icon-arrow-dark.svg" alt="">
+    </span>
+  
+  <div class="mobile-hidden-info" id="connect2">  
+    <span class="hover-link">Contact</span>
+    <br>
+    <span class="hover-link">Newsletter</span>
+    <br>
+    <span class="hover-link">LinkedIn</span>
+  
+  </div>  
+
+
+  </div>
+
+  <hr>
+
+  <div id="mobile-login-signup-both">
+    <span class="mobile-login-signup">Login</span>
+    <span class="mobile-login-signup">Sign Up</span>
+  </div>
+  
+</div>
+
+
+
+<div id="login-signup-both">
+  <span class="login-signup">Login</span>
+  <span class="login-signup">Sign Up</span>
+</div>
+
+
+  </header>
+
+
+
+
+
+ 
+
+<div id="main-info">
+
+  <span id="title">A modern publishing platform</span> 
+  Grow your audience and build your online brand
+  <div id="main-info-links">
+    <span class="info-link">Start for Free</span> 
+    <span class="info-link">Learn More</span> 
+    
+  </div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<img src="images/icon-hamburger.svg" onclick="ham()"  id="hamburger">   
+
+<div id="first-division">
+
+  <p id="first-division-title"> Designed for the future</p>
+
+ 
+
+  <div id="first-division-content-holder">
+
+    <div id="paragraphs-only">
+
+
+    <span class="paragraph">
+      <h1 class="paragraph-title"> Introducing an extensible editor</h1>
+     
+      Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+      The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+      videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+      change the looks of a blog.
+    </span>
+
+    <span class="paragraph">
+      <h1 class="paragraph-title"> Robust content management</h1>
+
+      Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+      by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+    </span>
+
+  </div>
+ 
+    
+    
+    <img id="first-division-img"> 
+
+
+  </div>
+
+
+
+
+</div>
+
+
+<div id="darkblue-div">
+
+  
+<div id="darkblue-div-content-holder">
+
+
+
+  <img src="images/illustration-phones.svg" id="img-phones">
+
+
+
+<div id="darkblue-div-text">
+
+  <h1> State of the Art Infrastructure</h1>
+
+ 
+  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+
+
+</div>
+
+
+<img src="images/bg-pattern-circles.svg" id="darkblue-div-img">
+
+</div>
+
+
+
+
+
+</div>
+
+
+<div id="second-division">
+
+
+ 
+ 
+
+  <div id="second-division-content-holder">
+
+    <img  id="second-division-img"> 
+
+    <div id="paragraphs-only2">
+
+
+    <span class="paragraph2">
+      <h1 class="paragraph-title2">  Free, open, simple</h1>
+     
+
+      Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+      features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+      and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+    </span>
+
+    <span class="paragraph2">
+      <h1 class="paragraph-title2">  Powerful tooling</h1>
+
+      Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+      capable of producing even the most complicated sites.
+    </span>
+
+  </div>
+ 
+    
+    
+
+
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+<div id="footer">
+  
+
+
+
+  <div id="footer-flex">
+
+
+    <img src="images/logo.svg" id="img-footer">
+
+  <div class="footer-items">
+
+   <h1 class="footer-title">Product</h1> 
+    
+    Overview
+    Pricing
+    Marketplace
+    Features
+    Integrations
+  
+  </div>
+
+  <div class="footer-items">
+
+  <h1 class="footer-title">Company</h1> 
+    
+    About
+    Team
+    Blog
+    Careers
+  
+  </div>
+
+  <div class="footer-items">
+
+   <h1 class="footer-title">Connect</h1> 
+  
+    Contact
+    Newsletter
+    LinkedIn
+  
+  </div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
